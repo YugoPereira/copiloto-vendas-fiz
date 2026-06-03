@@ -1,17 +1,44 @@
 # Catálogo de Produtos Fiz
 
-Todos os produtos Fiz possuem embalagem exclusiva em Lata de 350ml, visando redução de plástico e foco no consumo individual. O ticket médio sugerido para venda na ponta é de R$ 3,19.
+Todos os produtos Fiz possuem embalagem exclusiva em lata de 350 ml.
 
-## Linha Regular (50% menos açúcar que a média do mercado)
-- Fiz Guaraná da Amazônia: Potência do sabor brasileiro. É o sabor que mais vende.
-- Fiz Limão Siciliano: Alta refrescância.
-- Fiz Laranja Pera: Grande diferencial de mercado com 10% de suco (concorrência tem em média 2,5%).
+## Ticket Médio
 
-## Linha Zero (Zero açúcar e Zero calorias)
-- A categoria que mais cresce (48% nos últimos anos).
-- Fiz Guaraná da Amazônia Zero.
-- Fiz Limão Siciliano Zero.
+* Preço sugerido ao consumidor: R$ 3,19.
 
-## Linha Mixologia (Perfeito para Drinks)
-- Fiz Tônica com toque de Limão Siciliano (Regular com 45% menos açúcar).
-- Fiz Tônica Zero Açúcar.
+## Linha Regular (50% menos açúcar)
+
+* Guaraná da Amazônia (mais vendido);
+* Limão Siciliano;
+* Laranja Pera (10% de suco).
+
+## Linha Zero (Zero açúcar e calorias)
+
+Categoria com crescimento de 48%.
+
+* Guaraná Zero;
+* Limão Siciliano Zero.
+
+## Linha Mixologia
+
+* Tônica com Limão Siciliano (45% menos açúcar);
+* Tônica Zero.
+
+## Público Consumidor
+
+* Jovens adultos;
+* Consumidores que buscam opções com menos açúcar;
+* Pessoas que valorizam saudabilidade.
+
+## Diferenciais da Marca
+
+* Pertence ao Grupo Heineken;
+* Design moderno e descontraído;
+* Opções com menos açúcar;
+* Categoria Zero em forte crescimento.
+
+## Estratégia Comercial
+
+* A proposta não é substituir a marca líder.
+* O objetivo é ampliar o mix de refrigerantes da padaria.
+* Um pedido teste pequeno é suficiente para avaliar o giro do produto.

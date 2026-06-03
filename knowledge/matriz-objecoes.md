@@ -1,10 +1,57 @@
 # Matriz de Objeções B2B
 
-**Objeção:** "Meus clientes só pedem a marca tradicional líder de mercado."
-**Como contornar:** "A gente sabe que não é o número 1, e não tem problema! A ideia não é substituir a marca líder, é oferecer uma segunda opção para aquele cliente seu que quer reduzir o açúcar sem perder o sabor. Deixa um fardo de Guaraná da Amazônia gelando, o cliente que curte novidade vai pegar."
+---
 
-**Objeção:** "Não tenho espaço na geladeira."
-**Como contornar:** "As nossas latas de 350ml são compactas. Dá pra encaixar do lado das cervejas Heineken que você já vende. É venda casada para quem tá no balcão e não bebe álcool! O giro é rápido."
+## Objeção: Só pedem a marca líder
 
-**Objeção:** "A marca é desconhecida."
-**Como contornar:** "Pode até ser que o cliente não conheça de nome ainda, mas quando ele vê o selo do Grupo Heineken na lata e o visual moderno, a curiosidade fala mais alto. Sem contar que estamos investindo pesado nas rádios (como programas de humor) para levar o público direto pro seu comércio."
+### Resposta
+
+A proposta da Fiz não é substituir a marca líder, mas complementar o mix da padaria com uma opção diferenciada e com menos açúcar.
+
+---
+
+## Objeção: Não tenho espaço na geladeira
+
+### Resposta
+
+As latas de 350 ml ocupam pouco espaço e possuem excelente potencial de giro, principalmente para consumo individual.
+
+---
+
+## Objeção: Marca desconhecida
+
+### Resposta
+
+Fiz pertence ao Grupo Heineken, trazendo credibilidade e confiança. Além disso, a marca vem investindo em divulgação e em produtos alinhados às novas tendências de consumo.
+
+---
+
+## Objeção: Já trabalho com outras marcas
+
+### Resposta
+
+Nosso objetivo é ampliar as opções para o consumidor e aumentar as oportunidades de venda, sem substituir os produtos já existentes.
+
+---
+
+## Objeção: O produto é caro
+
+### Resposta
+
+Produtos com menor teor de açúcar e opções Zero estão em crescimento e atendem a um público que busca alternativas mais saudáveis, agregando valor ao mix da padaria.
+
+---
+
+## Objeção: Não conheço a demanda
+
+### Resposta
+
+Por isso sugerimos começar com um pedido teste pequeno, reduzindo riscos e permitindo avaliar o giro do produto.
+
+---
+
+## Objeção: Não tenho interesse no momento
+
+### Resposta
+
+Sem problemas. Podemos retomar a conversa em outro momento. O importante é que você conheça uma alternativa que pode trazer novas oportunidades para o seu negócio.
