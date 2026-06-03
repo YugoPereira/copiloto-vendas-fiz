@@ -1,0 +1,11 @@
+# Ambientes Virtuais
+venv/
+env/
+__pycache__/
+
+# Variáveis de Ambiente (Segurança)
+.env
+
+# Arquivos de banco de dados locais
+*.sqlite3
+*.db
