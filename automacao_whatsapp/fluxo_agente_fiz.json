@@ -1,0 +1,23 @@
+{
+  "nome_do_fluxo": "Agente Fiz - Automação WhatsApp B2B",
+  "versao": "1.0",
+  "descricao": "Fluxo que integra WhatsApp, Google Gemini e Banco SQL",
+  "nodes": [
+    {
+      "tipo": "Gatilho WhatsApp",
+      "acao": "Recebe mensagem do dono da padaria"
+    },
+    {
+      "tipo": "Processamento LLM",
+      "acao": "Consulta base de conhecimento e gera resposta"
+    },
+    {
+      "tipo": "Classificador de Dados",
+      "acao": "Extrai JSON com intenção de compra e objeções"
+    },
+    {
+      "tipo": "Banco de Dados",
+      "acao": "Insere os dados estruturados no SQL"
+    }
+  ]
+}
