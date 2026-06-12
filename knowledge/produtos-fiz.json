@@ -1,0 +1,20 @@
+{
+  "guarana_zero": {
+    "nome": "Fiz Guaraná da Amazônia Zero",
+    "embalagem": "Lata 350ml",
+    "ticket_medio": "R$ 3,19",
+    "argumento_venda": "A categoria Zero Açúcar cresceu 48%. É o sabor que mais atrai novos clientes buscando saudabilidade sem perder o sabor brasileiro."
+  },
+  "laranja_pera": {
+    "nome": "Fiz Laranja Pera Regular",
+    "embalagem": "Lata 350ml",
+    "ticket_medio": "R$ 3,19",
+    "argumento_venda": "Diferencial enorme no mercado: possui 10% de suco de laranja de verdade (a concorrência tem em média 2,5%). Possui 50% menos açúcar que a média do mercado."
+  },
+  "tonica_limao": {
+    "nome": "Fiz Tônica com Limão Siciliano",
+    "embalagem": "Lata 350ml",
+    "ticket_medio": "R$ 3,19",
+    "argumento_venda": "Linha Mixologia, perfeita para drinks em padarias com serviço de bar à noite. Tem 45% menos açúcar."
+  }
+}

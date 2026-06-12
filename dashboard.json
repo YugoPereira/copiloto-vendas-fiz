@@ -1,0 +1,13 @@
+{
+    "nome_cliente": "MegaPão",
+    "telefone": "",
+    "cidade": "",
+    "produto_interesse": "Guaraná Zero",
+    "quantidade": "1 caixa",
+    "forma_pagamento": "",
+    "dia_entrega": "terça-feira à tarde",
+    "intencao_de_compra": "Sim",
+    "objecao_principal": "Nenhuma",
+    "status_negociacao": "Pedido Fechado",
+    "resumo": "Cliente MegaPão fechou pedido de 1 caixa de Guaraná Zero para entrega na terça-feira à tarde."
+}
