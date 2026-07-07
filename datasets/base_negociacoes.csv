@@ -1,2 +1,3 @@
 id_negociacao;telefone_cliente;nome_cliente;cidade;produto_interesse;quantidade;dia_entrega;objecao_principal;status_negociacao;resumo;timestamp_inicio
 6efd426e;34999999999;;;Fiz Guaraná da Amazônia Zero;1 caixa;;Nenhuma;Pedido Fechado;Cliente fechou um pedido teste de 1 caixa de Fiz Guaraná da Amazônia Zero.;2026-06-05 18:58:52
+ce42ee8d;34999999999;Benedito;;Fiz Guaraná da Amazônia Zero;2 caixas;;Nenhuma;Em Andamento;Cliente demonstrou interesse em 2 caixas de Fiz Guaraná da Amazônia Zero.;2026-07-07 12:30:48

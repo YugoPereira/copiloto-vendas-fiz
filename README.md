@@ -1,119 +1,201 @@
-# Agente Fiz B2B & Sales Intelligence Pipeline 🥤📊
+# 🥤 Agente FYS B2B | Copiloto de Vendas com IA
 
-[🔗 Acessar Repositório do Projeto](https://github.com/YugoPereira/copiloto-vendas-fiz)
+> Projeto desenvolvido para o desafio **"Copiloto de Vendas com IA para Atendimento ao Cliente"** da **DIO**, utilizando a marca **FYS (HEINEKEN)** como contexto de negócio.
 
----
-
-## 🎯 Contexto e Objetivos
-
-Este projeto foi idealizado e desenvolvido como parte prática do bootcamp de **Inteligência Artificial aplicada a Vendas**, promovido pela **DIO em parceria com a Heineken**.
-
-O objetivo central foi criar um **Copiloto de Vendas B2B Autônomo** para a marca **Fiz (Grupo Heineken)**, buscando resolver uma dor recorrente da distribuição logística: a dificuldade de penetração no mercado fragmentado de padarias por meio da força de vendas tradicional.
-
-Segundo o mapeamento do canal, o Brasil possui aproximadamente **72 mil padarias**, sendo cerca de **21% concentradas na Grande São Paulo**. Apesar do alto potencial de consumo de refrigerantes *single serve* (consumo individual), a marca apresenta um *market share* de apenas **0,9%** nesse segmento.
-
-### Principais desafios identificados
-
-* Baixa cobertura física da equipe comercial;
-* Prioridade dos vendedores em canais de maior volume de bebidas alcoólicas;
-* Pouco tempo disponível dos proprietários para reuniões presenciais;
-* Necessidade de um processo de reposição mais ágil.
-
-### Solução proposta
-
-Um **Agente B2B autônomo via WhatsApp**, capaz de:
-
-* Gerar pedidos de reposição rapidamente;
-* Utilizar uma persona alinhada ao tom de voz da marca;
-* Apresentar o portfólio de forma leve e objetiva;
-* Registrar dados para análises futuras.
+O Agente FYS é um copiloto comercial que utiliza Inteligência Artificial para apoiar negociações com padarias, responder objeções utilizando uma base de conhecimento (RAG), registrar informações estruturadas das negociações e disponibilizar esses dados para análises em Business Intelligence.
 
 ---
 
-## 🤖 Tecnologias Utilizadas
+# 🎯 Objetivo
 
-### Modelagem Analítica
-
-* SQL;
-* Estruturação de banco de dados relacional;
-* Data Analytics;
-* Integração com Power BI.
-
-### Workflow Automation (No-Code / Low-Code)
-
-* OpenClaw;
-* n8n;
-* Make;
-* Integrações via API do WhatsApp.
-
-### Desenvolvimento e Validação
-
-* Python;
-* Scripts auxiliares para testes locais;
-* Validação de requisições para LLMs.
-
-### Engenharia de Prompts
-
-* Construção de persona;
-* Sistema RAG (*Retrieval-Augmented Generation*);
-* Roteiros para tratamento de objeções de vendas.
+Demonstrar como a IA pode apoiar equipes comerciais em canais pulverizados, automatizando parte do atendimento e transformando conversas em informações estruturadas para apoiar decisões de negócio.
 
 ---
 
-## 🧐 Processo de Criação
+# 🚀 O Problema
 
-O ecossistema foi concebido para ir além de um chatbot tradicional, atuando em duas frentes estratégicas.
+Durante a live da FYS apresentada no bootcamp da DIO, foi identificado um desafio comum ao varejo de vizinhança:
 
-### 📱 Opção 1: Implantação em Produção via WhatsApp
+- baixa presença da marca em padarias;
+- limitação da força de vendas para atender milhares de pontos de venda;
+- necessidade de responder rapidamente às objeções dos clientes;
+- baixo aproveitamento das informações geradas durante as negociações.
 
-Destinada à equipe comercial, permitindo rápida adoção sem necessidade de programação.
+Este projeto propõe uma solução baseada em IA para apoiar esse processo comercial.
 
-1. Acesse sua plataforma de automação preferida (OpenClaw, n8n ou Make);
-2. Importe o arquivo:
+---
 
-```text
-/automacao_whatsapp/fluxo_agente_fiz.json
+# 💡 A Solução
+
+O Agente FYS atua como um copiloto comercial capaz de:
+
+- apresentar os produtos da marca;
+- responder objeções utilizando uma base de conhecimento;
+- recomendar produtos do catálogo;
+- conduzir negociações simuladas;
+- extrair automaticamente informações estruturadas da conversa;
+- armazenar os dados para análises futuras.
+
+Embora o desafio pudesse ser resolvido com um chatbot simples, este projeto expande a proposta integrando conceitos de IA Generativa, Engenharia de Prompts, RAG, Pipeline ETL e Business Intelligence.
+
+---
+
+# 🏗️ Arquitetura do Sistema
+
+```mermaid
+graph TD
+
+A[Cliente / Dono da Padaria] --> B[Agente FYS]
+B --> C[Base de Conhecimento RAG]
+C --> B
+B --> D[Pipeline ETL]
+D --> E[(SQLite)]
+E --> F[Power BI]
+F --> G[Trade Marketing]
+
+style B fill:#f9f,stroke:#333
+style E fill:#bbf,stroke:#333
+style F fill:#f96,stroke:#333
 ```
 
-3. Insira a chave da API (Google Gemini ou OpenAI);
-4. Conecte o WhatsApp corporativo por meio do QR Code.
+---
+
+# ✅ Como este projeto atende ao desafio
+
+| Requisito | Implementação |
+|-----------|---------------|
+| Copiloto de vendas | ✅ Agente conversacional em Python |
+| Atendimento ao cliente | ✅ Simulação de negociação comercial |
+| Base de conhecimento | ✅ Catálogo de produtos + matriz de objeções |
+| IA aplicada | ✅ Google Gemini 2.5 Flash |
+| Sugestão de produtos | ✅ Consulta ao catálogo utilizando RAG |
+| Tratamento de objeções | ✅ Base de conhecimento estruturada |
+| Organização das informações | ✅ Persistência em SQLite |
+| Inteligência comercial | ✅ Modelo preparado para Power BI |
 
 ---
 
-### 💻 Opção 2: Teste Local via Terminal
+# 🧠 Base de Conhecimento
 
-Voltada para desenvolvedores e analistas interessados em validar a lógica do agente.
+A solução utiliza uma base de conhecimento construída a partir da live da **FYS**, organizada em:
 
-#### 1. Clonar o repositório
+- catálogo de produtos;
+- matriz de objeções;
+- dados do mercado de padarias.
+
+Essas informações são consultadas pelo agente através da estratégia **Retrieval-Augmented Generation (RAG)**, tornando as respostas mais contextualizadas e consistentes.
+
+---
+
+# 💬 Exemplo de Conversa
+
+> **Cliente:** Quero apenas duas caixas de Guaraná.
+
+> **Agente FYS:** Perfeito! Vou registrar duas caixas de FYS Guaraná. Caso tenha interesse, a FYS Laranja possui 10% de suco de fruta e pode complementar seu mix de refrigerantes. Deseja incluir alguma caixa?
+
+> **Cliente:** Não. Somente o Guaraná.
+
+> **Agente FYS:** Pedido registrado! Vou finalizar sua solicitação.
+
+---
+
+# ⚙️ Extração Estruturada (ETL)
+
+Após o encerramento da conversa, o histórico é processado automaticamente.
+
+```text
+[Sistema]
+
+✓ Conversa finalizada
+
+✓ Extraindo informações da negociação...
+
+✓ Cliente identificado
+
+✓ Produto identificado
+
+✓ Quantidade identificada
+
+✓ Persistindo dados...
+
+✓ Tabelas clientes, negociacoes e mensagens atualizadas com sucesso.
+```
+
+Esse processo transforma uma conversa não estruturada em dados prontos para análise.
+
+---
+
+# 📊 Inteligência de Negócios
+
+Os dados armazenados permitem análises como:
+
+- taxa de conversão;
+- produtos mais vendidos;
+- principais objeções;
+- tempo médio de atendimento;
+- quantidade média de interações;
+- desempenho das negociações.
+
+Toda a modelagem foi preparada para integração com **Microsoft Power BI**.
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+.
+├── app_local.py
+├── core/
+├── knowledge/
+├── prompts/
+├── data_architecture/
+├── datasets/
+├── automacao_whatsapp/
+├── docs/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🛠️ Tecnologias
+
+- Python
+- Google Gemini 2.5 Flash
+- Engenharia de Prompts
+- Retrieval-Augmented Generation (RAG)
+- SQLite
+- ETL
+- Microsoft Power BI
+- Mermaid
+
+---
+
+# 🚀 Como executar
+
+## 1. Clone o projeto
 
 ```bash
 git clone https://github.com/YugoPereira/copiloto-vendas-fiz.git
+
 cd copiloto-vendas-fiz
 ```
 
-#### 2. Instalar as dependências
+## 2. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 3. Configurar as credenciais
+## 3. Configure as credenciais
 
-Renomeie:
+Crie um arquivo `.env` baseado no `.env.example`:
 
-```text
-.env.example
+```env
+API_KEY_LLM=sua_chave_api
 ```
 
-para
-
-```text
-.env
-```
-
-e adicione sua chave de API.
-
-#### 4. Executar o agente
+## 4. Execute a aplicação
 
 ```bash
 python app_local.py
@@ -121,52 +203,47 @@ python app_local.py
 
 ---
 
-## 🚀 Resultados
+# 📚 Documentação
 
-Toda interação realizada pelo agente no WhatsApp gera um **webhook**, responsável por alimentar o banco de dados relacional.
+A documentação técnica foi organizada separadamente para manter este README objetivo.
 
-O arquivo:
-
-```text
-/data_architecture/schema_vendas.sql
-```
-
-foi modelado para integração com o **Power BI**, permitindo:
-
-### 📈 Monitoramento de desempenho
-
-* Comparação da taxa de conversão do Agente B2B com a performance da força de vendas tradicional.
-
-### 🗣️ Mapeamento de objeções
-
-* Geração de nuvem de palavras;
-* Identificação das principais barreiras do varejo.
-
-Exemplos:
-
-* "Falta espaço na geladeira";
-* "Marca desconhecida".
-
-### 🥤 Análise de sortimento
-
-Avaliação dos produtos com maior índice de:
-
-* Aceitação;
-* Rejeição;
-* Penetração da linha **Zero Açúcar** em comparação à linha **Regular**.
+| Documento | Descrição |
+|-----------|-----------|
+| [Arquitetura](docs/arquitetura.md) | Arquitetura da solução e fluxo de dados |
+| [Power BI](docs/powerbi.md) | Modelagem analítica e indicadores |
+| [Prompts](docs/prompts.md) | Engenharia de Prompts e estratégia RAG |
+| [Reflexão](docs/reflexao.md) | Decisões arquiteturais e aprendizados |
 
 ---
 
-## 💭 Reflexão
+# 🔮 Próximos Passos
 
-A implementação de agentes autônomos integrados a pipelines de dados representa uma mudança significativa na operação de canais B2B fragmentados.
-
-Mais do que reduzir o **Custo de Aquisição de Clientes (CAC)** e ampliar a capilaridade sem aumentar o *headcount*, essa arquitetura transforma dados desestruturados — como conversas no WhatsApp — em **Business Intelligence acionável**, permitindo respostas mais rápidas e decisões orientadas por dados para as áreas de Trade Marketing.
+- Integração com WhatsApp;
+- API REST utilizando FastAPI;
+- Dashboard em tempo real;
+- Banco PostgreSQL;
+- Implantação em nuvem.
 
 ---
 
-## 👨‍💻 Autor
+# 📖 Aprendizados
+
+Durante este projeto foram aplicados conceitos de:
+
+- Inteligência Artificial Generativa;
+- Engenharia de Prompts;
+- Retrieval-Augmented Generation (RAG);
+- Modelagem Relacional;
+- Pipeline ETL;
+- Business Intelligence;
+- Modelagem Dimensional;
+- Power BI;
+- Automação Comercial.
+
+---
+
+# 👨‍💻 Autor
 
 **Yugo Pereira**
 
-Feito com propósito, estratégia e paixão por tecnologia e dados 💙
+Profissional em transição para as áreas de **Data Analytics**, **Business Intelligence** e **Inteligência Artificial**, desenvolvendo soluções que unem automação, engenharia de dados e IA aplicada aos negócios.
