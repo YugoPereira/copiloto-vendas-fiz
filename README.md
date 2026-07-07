@@ -216,7 +216,7 @@ A documentação técnica foi organizada separadamente para manter este README o
 
 ---
 
-## 🔒 Segurança
+# 🔒 Segurança
 
 O projeto foi desenvolvido seguindo boas práticas de segurança:
 
