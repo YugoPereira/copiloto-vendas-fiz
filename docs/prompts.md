@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-O Agente Fiz B2B foi desenvolvido utilizando técnicas de Engenharia de Prompt e Retrieval-Augmented Generation (RAG), permitindo que as respostas sejam mais consistentes, contextualizadas e alinhadas ao posicionamento da marca.
+O Agente Fyz B2B foi desenvolvido utilizando técnicas de Engenharia de Prompt e Retrieval-Augmented Generation (RAG), permitindo que as respostas sejam mais consistentes, contextualizadas e alinhadas ao posicionamento da marca.
 
 Em vez de depender exclusivamente do conhecimento do modelo de linguagem, o sistema utiliza fontes de conhecimento estruturadas para enriquecer o processo de decisão da IA.
 
@@ -71,7 +71,7 @@ Exemplos de informações extraídas:
 Arquivo:
 
 ```text
-knowledge/produtos-fiz.json
+knowledge/produtos-fyz.json
 ```
 
 Contém informações estruturadas sobre os produtos da marca.
@@ -201,6 +201,6 @@ Essa abordagem permite transformar conversas em informações estruturadas para 
 
 # Objetivo da Estratégia
 
-O objetivo do Agente Fiz B2B não é apenas responder perguntas, mas transformar conhecimento comercial em um ativo reutilizável.
+O objetivo do Agente Fyz B2B não é apenas responder perguntas, mas transformar conhecimento comercial em um ativo reutilizável.
 
 Ao combinar Engenharia de Prompt com RAG, o sistema consegue oferecer respostas mais precisas, manter a identidade da marca e gerar dados estruturados capazes de apoiar análises e decisões futuras.

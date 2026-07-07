@@ -10,7 +10,7 @@ MODELO_LLM = "gemini-2.5-flash"
 PROMPT_PRINCIPAL = "prompts/prompt-principal.md"
 PROMPT_CLASSIFICADOR = "prompts/prompt-classificador.md"
 MATRIZ_OBJECOES = "knowledge/matriz-objecoes.md"
-CATALOGO_PRODUTOS = "knowledge/produtos-fiz.json"
+CATALOGO_PRODUTOS = "knowledge/produtos-fyz.json"
 
 # Pastas de saída
 DIR_DASHBOARDS = "dashboards"

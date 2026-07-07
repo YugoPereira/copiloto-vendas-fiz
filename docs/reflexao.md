@@ -1,12 +1,12 @@
 # Reflexão Sobre o Projeto
 
 ## Mais do que um Chatbot
-Durante o desenvolvimento do Agente Fiz B2B, ficou evidente que o maior valor da Inteligência Artificial não está apenas em automatizar conversas, mas em transformar interações cotidianas em informação estratégica para o negócio.
+Durante o desenvolvimento do Agente Fyz B2B, ficou evidente que o maior valor da Inteligência Artificial não está apenas em automatizar conversas, mas em transformar interações cotidianas em informação estratégica para o negócio.
 
-O desafio proposto pelo bootcamp da DIO em parceria com a Heineken consistia em criar uma solução capaz de ampliar a presença da marca Fiz em um mercado extremamente fragmentado, formado por milhares de padarias distribuídas pelo Brasil. Ao longo do projeto, a percepção inicial de construir apenas um chatbot evoluiu para uma visão muito mais ampla: criar uma arquitetura robusta e capaz de gerar inteligência comercial.
+O desafio proposto pelo bootcamp da DIO em parceria com a Heineken consistia em criar uma solução capaz de ampliar a presença da marca Fyz em um mercado extremamente fragmentado, formado por milhares de padarias distribuídas pelo Brasil. Ao longo do projeto, a percepção inicial de construir apenas um chatbot evoluiu para uma visão muito mais ampla: criar uma arquitetura robusta e capaz de gerar inteligência comercial.
 
 ## Da Conversa ao Dado
-Em muitas estruturas comerciais, informações cruciais sobre o mercado permanecem dispersas em mensagens, ligações e anotações informais. A proposta do Agente Fiz foi justamente capturar e transformar essas informações não estruturadas em dados organizados e persistidos em um banco relacional, permitindo análises profundas por meio de ferramentas de Business Intelligence.
+Em muitas estruturas comerciais, informações cruciais sobre o mercado permanecem dispersas em mensagens, ligações e anotações informais. A proposta do Agente Fyz foi justamente capturar e transformar essas informações não estruturadas em dados organizados e persistidos em um banco relacional, permitindo análises profundas por meio de ferramentas de Business Intelligence.
 
 Essa abordagem possibilita responder a perguntas de negócio cruciais:
 *   Quais produtos possuem maior aceitação no varejo de vizinhança?
@@ -41,7 +41,7 @@ Uma das principais lições práticas foi aprender a mitigar o excesso de engenh
 Essa experiência reforçou que uma arquitetura excelente não é necessariamente a mais complexa, mas sim aquela que entrega valor real e sustentável para o negócio.
 
 ## Considerações Finais
-O Agente Fiz B2B representa a convergência exata entre Inteligência Artificial, Engenharia de Dados e Inteligência de Negócios. Mais do que um exercício de programação para o bootcamp, o projeto demonstrou na prática como tecnologias emergentes podem ser orquestradas para resolver dores logísticas e comerciais reais, transformando conversas em conhecimento e conhecimento em vantagem competitiva.
+O Agente Fyz B2B representa a convergência exata entre Inteligência Artificial, Engenharia de Dados e Inteligência de Negócios. Mais do que um exercício de programação para o bootcamp, o projeto demonstrou na prática como tecnologias emergentes podem ser orquestradas para resolver dores logísticas e comerciais reais, transformando conversas em conhecimento e conhecimento em vantagem competitiva.
 
 No contexto de canais pulverizados, como o mercado de padarias, soluções desse tipo possuem o potencial latente de ampliar a capilaridade de marcas, aumentar a eficiência da operação e fornecer dados estratégicos valiosos para a tomada de decisão em tempo real.
 

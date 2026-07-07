@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-O Agente Fiz B2B foi desenvolvido seguindo uma arquitetura modular, com foco em simplicidade operacional, escalabilidade e geração de inteligência de negócios.
+O Agente Fyz B2B foi desenvolvido seguindo uma arquitetura modular, com foco em simplicidade operacional, escalabilidade e geração de inteligência de negócios.
 
 A solução separa a lógica de interação com o cliente da camada de processamento e persistência de dados, permitindo que conversas comerciais sejam transformadas em informações estruturadas para análise posterior.
 
@@ -17,7 +17,7 @@ A arquitetura foi concebida para suportar dois cenários:
 
 1. **Input:** o cliente interage pelo terminal (ou futuramente via WhatsApp).
 
-2. **Orquestração:** o Agente Fiz utiliza o Google Gemini para interpretar a intenção do usuário e conduzir a conversa seguindo a persona da marca.
+2. **Orquestração:** o Agente Fyz utiliza o Google Gemini para interpretar a intenção do usuário e conduzir a conversa seguindo a persona da marca.
 
 3. **RAG (Retrieval-Augmented Generation):** antes de responder, o agente consulta o catálogo de produtos, garantindo maior precisão técnica.
 
@@ -91,7 +91,7 @@ Essa abordagem garante:
 
 ### `prompt-principal.md`
 
-Define a persona e o comportamento do Agente Fiz.
+Define a persona e o comportamento do Agente Fyz.
 
 ### `prompt-classificador.md`
 
@@ -101,9 +101,9 @@ Responsável pela extração estruturada dos dados em formato JSON.
 
 Base de conhecimento para tratamento das principais objeções comerciais.
 
-### `produtos-fiz.json`
+### produtos-fyz.json
 
-Catálogo estruturado dos produtos da marca Fiz.
+Catálogo estruturado dos produtos da marca Fyz.
 
 ---
 

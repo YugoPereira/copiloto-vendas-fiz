@@ -1,8 +1,8 @@
-from core.agente import AgenteFiz
+from core.agente import AgenteFyz
 
 if __name__ == "__main__":
     try:
-        agente = AgenteFiz()
+        agente = AgenteFyz()
         agente.iniciar()
     except KeyboardInterrupt:
         print("\n\nSistema interrompido pelo usuário.")

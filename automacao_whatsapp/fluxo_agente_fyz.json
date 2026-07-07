@@ -1,5 +1,5 @@
 {
-  "nome_do_fluxo": "Agente Fiz - Automação WhatsApp B2B",
+  "nome_do_fluxo": "Agente Fyz - Automação WhatsApp B2B",
   "versao": "1.0",
   "descricao": "Fluxo que integra WhatsApp, Google Gemini e Banco SQL",
   "nodes": [

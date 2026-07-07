@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-O Agente Fiz B2B foi projetado com uma arquitetura **BI-Ready**, permitindo que as informações geradas durante as negociações sejam consumidas por ferramentas de Business Intelligence.
+O Agente Fyz B2B foi projetado com uma arquitetura **BI-Ready**, permitindo que as informações geradas durante as negociações sejam consumidas por ferramentas de Business Intelligence.
 
 O banco de dados SQLite (`vendas.db`) atua como a camada de persistência da solução, possibilitando análises comerciais e operacionais em tempo real.
 
@@ -133,9 +133,9 @@ Análise da demanda por SKU.
 
 Exemplos:
 
-* FIZ Limão;
-* FIZ Guaraná;
-* FIZ Zero Açúcar.
+* FYZ Limão;
+* FYZ Guaraná;
+* FYZ Zero Açúcar.
 
 ---
 
@@ -249,6 +249,6 @@ DIVIDE(
 
 # Objetivo da Arquitetura
 
-Mais do que automatizar conversas, o Agente Fiz B2B busca transformar dados desestruturados em inteligência comercial.
+Mais do que automatizar conversas, o Agente Fyz B2B busca transformar dados desestruturados em inteligência comercial.
 
 Ao registrar negociações e interações em um banco relacional, a solução permite que áreas comerciais e de Trade Marketing tenham acesso a informações capazes de apoiar decisões estratégicas baseadas em dados.

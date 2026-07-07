@@ -7,7 +7,7 @@ from core.models import Negociacao
 from core.enums import StatusNegociacao
 from core.config import PROMPT_PRINCIPAL, PROMPT_CLASSIFICADOR, MATRIZ_OBJECOES
 
-class AgenteFiz:
+class AgenteFyz:
     def __init__(self):
         self.llm = ClienteLLM()
         self.catalogo = CatalogoProdutos()
@@ -23,7 +23,7 @@ class AgenteFiz:
 
     def iniciar(self):
         print("="*60)
-        print(f"🤖 Agente Fiz B2B V7.0 (Core Enxuto BI) | {self.llm.modelo}")
+        print(f"🤖 Agente Fyz B2B | {self.llm.modelo}")
         print("="*60)
         self._fluxo_consultor()
 

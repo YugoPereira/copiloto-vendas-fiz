@@ -6,7 +6,7 @@
 
 ### Resposta
 
-A proposta da Fiz não é substituir a marca líder, mas complementar o mix da padaria com uma opção diferenciada e com menos açúcar.
+A proposta da Fyz não é substituir a marca líder, mas complementar o mix da padaria com uma opção diferenciada e com menos açúcar.
 
 ---
 
@@ -22,7 +22,7 @@ As latas de 350 ml ocupam pouco espaço e possuem excelente potencial de giro, p
 
 ### Resposta
 
-Fiz pertence ao Grupo Heineken, trazendo credibilidade e confiança. Além disso, a marca vem investindo em divulgação e em produtos alinhados às novas tendências de consumo.
+Fyz pertence ao Grupo Heineken, trazendo credibilidade e confiança. Além disso, a marca vem investindo em divulgação e em produtos alinhados às novas tendências de consumo.
 
 ---
 
