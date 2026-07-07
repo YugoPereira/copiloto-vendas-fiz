@@ -216,6 +216,16 @@ A documentação técnica foi organizada separadamente para manter este README o
 
 ---
 
+## 🔒 Segurança
+
+O projeto foi desenvolvido seguindo boas práticas de segurança:
+
+- credenciais armazenadas em variáveis de ambiente;
+- arquivo `.env` ignorado pelo Git;
+- base de conhecimento separada da lógica da aplicação;
+- dados de exemplo utilizados para demonstração.
+
+---
 # 🔮 Próximos Passos
 
 - Integração com WhatsApp;
